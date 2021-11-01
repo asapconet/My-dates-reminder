@@ -8,7 +8,7 @@ function App() {
   return (
     <main>
       <div className="main-card">
-        <h3>You've signed up for{} dates this week</h3>
+        <h1>You've signed up for{} dates this week</h1>
         {data.map((e) => {
           const { id, name, img, age } = e;
           return (
@@ -16,7 +16,7 @@ function App() {
               <img src={img} alt={name}/>
               <div>
                 {name}
-                <p>{age}</p>
+                <p>{age} years</p>
               </div>
             </article>
           );
