@@ -1,3 +1,25 @@
 * {
-  background-color: purple;
+  background-color: rgb(148, 14, 148);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+.main-card {
+  margin: 4rem;
+  width: 30rem;
+  background-color: white;
+  box-shadow: .1rem .3rem .3rem .1rem rgba(0, 0, 0, .3) ;
+  border-radius: 1rem;
+}
+
+.btn {
+  background-color: rgb(148, 14, 148);
+  color: white;
+  height: 3.2rem;
+  width: 25.5rem;
+  font-size: x-large;
+  margin: 1rem auto 1rem 2rem;
+  border-radius: 0.8rem;
 }

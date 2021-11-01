@@ -3,9 +3,11 @@ import './App.css';
 
 function App() {
   return (
-   <section>
-     
-   </section>
+   <main>
+     <div className='main-card'> 
+     <button className='btn'>Clear all</button>
+     </div>
+   </main>
   );
 }
 
